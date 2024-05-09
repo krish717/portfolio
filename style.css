@@ -252,11 +252,13 @@ footer p{
     }
 }
 
-.close-btn, .hamburger-menu{
-    display: flex;
-}
+
     
 @media (max-width:900px) {
+    .close-btn, .hamburger-menu{
+        display: flex;
+        cursor: pointer;
+    }
     /* body{
         border: 2px solid red;
     } */
@@ -289,9 +291,10 @@ footer p{
         padding-block: 0.5rem;
         gap: 10px;
         color: white;
-        border-radius: 16px;
-       
-       
+        border-radius: 16px;     
+    }
+    .header-list ul li{
+        font-size: 25px;
     }
     .hamburger-menu{
         margin-left: 200px;
