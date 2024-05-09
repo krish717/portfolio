@@ -244,9 +244,9 @@ footer p{
 
     
 @media (max-width:900px) {
-    body{
+    /* body{
         border: 2px solid red;
-    }
+    } */
     .header{
         min-width: 350px;
         flex-direction: column;
@@ -262,7 +262,7 @@ footer p{
     }
     .main-head > div >h1{
         position: relative;
-        top: 8rem;
+        top: 15rem;
         left: 2rem;
         min-width: 350px;
         z-index: 1000;
@@ -274,11 +274,11 @@ footer p{
         padding: 0;
         min-width: 350px;
         position: relative;
-        top: 230px;
+        top: 20rem;
     }
     .main-img{
         position: relative;
-        top: -8rem;
+        top: -2rem;
        padding: 0px;
     }
     .main-img > img, .about-img > img{
@@ -289,7 +289,7 @@ footer p{
         min-width: 100%;
         padding: 0;
         position: relative;
-        top: -5rem;
+        top: 6rem;
     }
     #contact-btn{
         display: none;
@@ -302,7 +302,7 @@ footer p{
     }
     .about{
         flex-direction: column;
-        margin-top: 1rem;
+        margin-top: 7rem;
     }
     
     .box, .container{
