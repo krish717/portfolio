@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>KRISH | FRONTEND DEVELOPER</title>
     <link rel="stylesheet" href="style.css" />
     <style>
       * {
@@ -13,6 +13,7 @@
       .container {
         width: 100%;
         background-color: #ddd;
+        border-radius: 25px;
       }
 
       .skills {
@@ -20,11 +21,12 @@
         padding-top: 10px;
         padding-bottom: 10px;
         color: white;
+        border-radius: 25px;
       }
 
       .html {
         width: 90%;
-        background-color: #04aa6d;
+        background-color: #fa51d5;
       }
       .css {
         width: 80%;
@@ -36,7 +38,7 @@
       }
       .php {
         width: 60%;
-        background-color: #808080;
+        background-color: #8bdf3c;
       }
     </style>
     <link
@@ -52,8 +54,14 @@
   <body>
     <header class="header">
       <h1>KRISH</h1>
+ 
+        <input type="checkbox" hidden id="hamburger-checkbox">
+        <label for="hamburger-checkbox" class="hamburger-menu"><img src="images/Hamburger.png" /></label>
+       
+      
       <div class="header-list">
         <ul>
+          <label for="hamburger-checkbox"><img class="close-btn" src="images/Group 1.png" /></label>
           <li>Home</li>
           <li>About Me</li>
           <li>Services</li>
@@ -62,35 +70,42 @@
         </ul>
       </div>
       <button class="btn1" id="contact-btn">Contact Me</button>
+      
+      <!-- <img class="close-btn" src="images/Group 1.png" /> -->
     </header>
     <div class="main-head">
       <div>
         <h1>
-          Hi,I am<br /><span>KRISH</span><br /><span class="role-heading"
+          Hi,am<br /><span>KRISH</span><br /><span class="role-heading"
             >Frontend Developer</span
           >
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quod ex
-          alias assumenda. Labore totam, repudiandae nemo quis quia mollitia
-          optio obcaecati hic nulla. Illum suscipit molestias nam ut aliquam.
-          Lorem ipsum dolor sit amet consectetur. Nunc eget vestibulum porttitor
-          massa at ullamcorper duis vitae. Ullamcorper suspendisse quis nibh
-          libero pharetra tristique.
+          I'm Krish, currently in my final year pursuing a B.Tech in Information
+          Technology from Guru Gobind Singh Indraprastha University,
+          Delhi.Proficient in frontend languages like HTML, CSS, and JavaScript,
+          I've also delved into frameworks like ReactJS to create responsive and
+          dynamic user interfaces.
         </p>
         <div class="btn">
           <button class="btn1">Hire Me</button>
-          <button class="download-btn">Download cv</button>
+          <a
+            href="https://drive.google.com/file/d/1ouHyjNLNVtjNXizFCRnskYPIPyQ1WdpO/view?pli=1"
+            target="_blank"
+            ><button class="download-btn">Download cv</button></a
+          >
         </div>
       </div>
       <div class="main-img">
-        <img src="images/villan.jpeg" alt="img" />
+        <img src="images/dp-PhotoRoom.png-PhotoRoom.png" alt="img" />
       </div>
     </div>
     <div class="social-media-container">
       <img src="images/facebook.png" />
       <img src="images/instagram.png" />
-      <img src="images/linkedin.png" />
+      <a href="https://www.linkedin.com/in/krish9773/" target="_blank"
+        ><img src="images/linkedin.png"
+      /></a>
       <img src="images/twitter.png" />
       <img src="images/whatsapp.png" />
     </div>
@@ -101,9 +116,11 @@
       <div>
         <h1>About Me</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Nunc eget vestibulum porttitor
-          massa at ullamcorper duis vitae. Ullamcorper suspendisse quis nibh
-          libero pharetra tristique.
+          I'm Krish, currently in my final year pursuing a B.Tech in Information
+          Technology from Guru Gobind Singh Indraprastha University,
+          Delhi.Proficient in frontend languages like HTML, CSS, and JavaScript,
+          I've also delved into frameworks like ReactJS to create responsive and
+          dynamic user interfaces.
         </p>
         <p>HTML</p>
         <div class="container">
@@ -120,7 +137,7 @@
           <div class="skills js">65%</div>
         </div>
 
-        <p>PHP</p>
+        <p>React</p>
         <div class="container">
           <div class="skills php">60%</div>
         </div>
@@ -204,11 +221,11 @@
             <p>CEO</p>
           </div>
           <div>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
           </div>
         </div>
       </div>
@@ -246,39 +263,45 @@
             <p>CEO</p>
           </div>
           <div>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
           </div>
         </div>
       </div>
     </div>
     <div class="contact">
-        <h1>Contact Me</h1>
-      </div>
-    <div class="form-section">
-        <div>
-            <h1>Lets<br>
-                Design<br>
-                Together</h1>
-                <p>Lorem ipsum dolor sit amet consectetur. Id pulvinar consequat enim molestie dolor commodo mauris dolor amet. Nulla pellentesque  Id pulvinar consequat eni </p>
-        </div>
-        <div class="forms">
-            <form>
-                <div>Name *</div>
-                <input type="text" required name="name" />
-                <div>Email *</div>
-                <input type="email" required name="name" >
-                <div>Message *</div>
-                <input id="msg" type="textarea" required name="name" >
-                <button class="btn1" id="submit-form-btn">Submit</button>
-            </form>
-        </div>
+      <h1>Contact Me</h1>
     </div>
-   <footer>
-    <p>© 2024 Make By ❤️ Krish.</p>
-   </footer>
+    <div class="form-section">
+      <div>
+        <h1>
+          Lets<br />
+          Design<br />
+          Together
+        </h1>
+        <p>
+          Proficient in frontend languages like HTML, CSS, and JavaScript, I've
+          also delved into frameworks like ReactJS to create responsive and
+          dynamic user interfaces.
+        </p>
+      </div>
+      <div class="forms">
+        <form>
+          <div>Name *</div>
+          <input type="text" required name="name" />
+          <div>Email *</div>
+          <input type="email" required name="name" />
+          <div>Message *</div>
+          <input id="msg" type="textarea" required name="name" />
+          <button class="btn1" id="submit-form-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>© 2024 Developed By ❤️ Krish.</p>
+    </footer>
   </body>
 </html>
