@@ -1,17 +1,30 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:  "Noto Sans", sans-serif;
+    font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
     box-sizing: border-box;
     /* background-color: white; */
     
 }
+ a{
+    text-decoration: none;
+    color: #3d4152;
+}
+
+
+
 
 .header{
     display: flex;
     /* border: 2px solid red; */
     align-items: center;
     padding: 0 8rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
 .header-list{
@@ -27,6 +40,8 @@
     gap: 2rem;
     font-size: 20px;
     cursor: pointer;
+    position: relative;
+    left: 18rem;
 }
 
 ul {
@@ -48,6 +63,11 @@ ul {
    max-width: 400px;
 }
 
+.header-btn{
+    position: relative;
+    left: 18rem;
+}
+
 .btn1{
     padding: 0.5rem 1rem;
     background-color: #122658;
@@ -56,6 +76,7 @@ ul {
     border: none;
     font-size: 1rem;
     cursor: pointer;
+   
 }
 
 span{
@@ -371,7 +392,7 @@ footer p{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 0 2rem;
+        padding: 0 6rem;
         
     }
 
@@ -382,6 +403,12 @@ footer p{
     footer p{
         min-width: 350px;
         text-align: center;
+    }
+
+
+    a{
+        text-decoration: none;
+        color: white;
     }
     
     

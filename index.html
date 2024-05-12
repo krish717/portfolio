@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KRISH | FRONTEND DEVELOPER</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <style>
       * {
@@ -65,18 +65,18 @@
       <div class="header-list">
         <ul>
           <label for="hamburger-checkbox"><img class="close-btn" src="images/Group 1.png" /></label>
-          <li>Home</li>
-          <li>About Me</li>
-          <li>Services</li>
-          <li>Projects</li>
-          <li>Testimonials</li>
+          <a href="#home"><li>Home</li></a>
+          <a href="#about"><li>About Me</li></a>
+          <a href="#services"><li>Services</li></a>
+          <a href="#projects"><li>Projects</li></a>
+          <a href="#testimonials"><li>Testimonials</li></a>
         </ul>
       </div>
-      <button class="btn1" id="contact-btn">Contact Me</button>
+      <a class="btn1 header-btn" id="contact-btn" href="#contact" >Contact Me</a>
       
       <!-- <img class="close-btn" src="images/Group 1.png" /> -->
     </header>
-    <div class="main-head">
+    <div class="main-head" id="home">
       <div>
         <h1>
           Hi,am<br /><span>KRISH</span><br /><span class="role-heading"
@@ -103,7 +103,7 @@
         <img src="images/dp-PhotoRoom.png-PhotoRoom.png" alt="img" />
       </div>
     </div>
-    <div class="social-media-container">
+    <div class="social-media-container" id="about">
       <img src="images/facebook.png" />
       <img src="images/instagram.png" />
       <a href="https://www.linkedin.com/in/krish9773/" target="_blank"
@@ -146,7 +146,7 @@
         </div>
       </div>
     </div>
-    <div class="services-head">
+    <div class="services-head" id="services">
       <h1>Services</h1>
     </div>
     <div class="services">
@@ -193,7 +193,7 @@
         </p>
       </div>
     </div>
-    <div class="services-head">
+    <div class="services-head" id="projects">
       <h1>My Projects</h1>
     </div>
     <div class="projects">
@@ -207,7 +207,7 @@
         <img src="images/projects-img/image 21.png" />
       </div>
     </div>
-    <div class="services-head">
+    <div class="services-head" id="testimonials">
       <h1>Testimonials</h1>
     </div>
     <div class="testinomials">
@@ -275,7 +275,7 @@
         </div>
       </div>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
       <h1>Contact Me</h1>
     </div>
     <div class="form-section">
