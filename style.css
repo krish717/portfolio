@@ -271,6 +271,15 @@ footer p{
     .header{
         padding: 0 2rem;
     }
+    /* .header-list ul {
+        left: 14rem;
+    } */
+
+}
+@media (max-width:300px) {
+.header-list ul {
+    left: 9rem;
+}
 }
 
 
@@ -304,7 +313,7 @@ footer p{
     .header-list ul{ 
       
         position: absolute;
-        right: 1rem;
+        left: 8rem;
         display: none;
         flex-direction: column;
         background-color: #122658;
@@ -318,7 +327,7 @@ footer p{
         font-size: 25px;
     }
     .hamburger-menu{
-        margin-left: 200px;
+        margin-left: auto;
     }
 
     #hamburger-checkbox:checked ~ .header-list ul {
@@ -378,10 +387,10 @@ footer p{
     }
     
     .box, .container{
-        min-width: 300px;
+        min-width: 250px;
     }
     .testinomials-box{
-        min-width: 325px;
+        min-width: 250px;
     }
     .testinomials{
         flex-direction: column;
@@ -392,12 +401,12 @@ footer p{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 0 6rem;
+        padding: 0 2rem;
         
     }
 
     .forms, footer{
-        min-width: 350px;
+        min-width: 300px;
     }
 
     footer p{
@@ -409,6 +418,13 @@ footer p{
     a{
         text-decoration: none;
         color: white;
+    }
+
+    /* body{
+        border: 2px solid red;
+    } */
+    .services-head{
+        padding: 0 3rem;
     }
     
     
